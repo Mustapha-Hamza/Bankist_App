@@ -725,7 +725,12 @@ h4 {
   }
 
   .nav__item {
-    margin: 1rem 0;
+    margin: 0.5rem 0;
+  }
+
+  .btn--show-modal {
+    font-size: 5rem;
+    line-height: 1.5rem;
   }
 
   .header__title {
@@ -755,6 +760,11 @@ h4 {
 
   .operations {
     max-width: 80rem;
+  }
+
+  .operations__tab {
+    line-height: 1.5rem;
+    padding: 1.5rem 0;
   }
 
   .operations__content {
@@ -801,5 +811,12 @@ h4 {
 
   .footer__link {
     font-size: 1rem;
+  }
+
+  .modal {
+    padding: 2.5rem;
+  }
+  .modal__header {
+    font-size: 3rem;
   }
 }
